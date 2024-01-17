@@ -1,0 +1,83 @@
+body {
+    background-image:url(/src/image/background-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#mainHeader {
+    color: white;
+}
+
+
+.fa.fa-trash {
+    cursor: pointer;
+}
+
+.fa.fa-trash:hover {
+    color:red;
+}
+
+.fa.fa-trash:active {
+    color: black;
+}
+
+
+.fa.fa-pencil {
+    cursor: pointer;
+}
+
+.fa.fa-pencil:hover {
+    color:green;
+}
+
+.fa.fa-pencil:active {
+    color: black;
+}
+
+
+.fa.fa-thumbs-up {
+    color: blue;
+    cursor: pointer;
+}
+
+.fa.fa-thumbs-up:hover {
+    color: blue;
+}
+
+.fa.fa-thumbs-up:active {
+    color:black;
+}
+
+
+.fa.fa-thumbs-down {
+    color: red;
+    cursor: pointer;
+}
+
+.fa.fa-thumbs-down:hover {
+    color: red;
+}
+
+.fa.fa-humbs-down:active {
+    color: black;
+}
+
+
+.breadcrumb-item {
+    cursor: pointer;
+    color:white;
+}
+
+.breadcrumb-item:hover {
+    color:wheat
+}
+
+
+.breadcrumb-item.active {
+    color:yellow;
+}
+
+.breadcrumb-item.active:active {
+    color:white;
+}

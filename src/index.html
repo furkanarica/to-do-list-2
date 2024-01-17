@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            
+            <div class="col-md-auto">
+                <br>
+                <h1 id="mainHeader" class="display-4"> TO DO LIST</h1>
+            </div>
+
+            <form class="needs-validation">
+                
+                <div class="mb-3 d-flex flex-row-reverse">
+                    <button id="btnAddTask" class="btn btn-success" type="submit" onclick="addTask()">
+                        <i class="fa fa-plus"></i>
+                        Add Task
+                    </button>
+                </div>
+
+                <div class="mb-3">
+                    <input class="form-control" id="inputTitle" type="text" placeholder="Add title..." autocomplete="off" autofocus required>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a description here" id="txtAreaDesc" required></textarea>
+                    <label for="textAreaDescription">Description:</label>
+                </div>
+                
+                <br>
+
+                <div class="d-flex">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item active" id="all"">All</li>
+                            <li class="breadcrumb-item" id="completed"">Completed</li>
+                            <li class="breadcrumb-item" id="incomplete">Incomplete</li>
+                        </ol>
+                    </nav>
+                </div>
+
+                <ul id="listGroup" class="list-group list-group-numbered"">
+                </ul>
+    
+                </form>
+    
+            </div>
+            
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/todo.js"></script>
+</body>
+</html>        
+                        
+                            
+                        
+                    
